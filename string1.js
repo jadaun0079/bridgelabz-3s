@@ -11,7 +11,7 @@ function isRotation(s1, s2) {
     return (s1 + s1).includes(s2);
 }
 
-// Example
+
 console.log(isRotation("ABCD", "CDAB")); // true
 
 
@@ -36,5 +36,25 @@ function runLengthEncode(str) {
 
 // Example
 console.log(runLengthEncode("aaabbc")); // "a3b2c1"
+
+// question 4 
+let str = "swiss";
+let ans = "";
+
+for (let i = 0; i < str.length; i++) {
+  let count = 0;
+
+  for (let j = 0; j < str.length; j++) {
+    if (str[i] === str[j]) count++;
+  }
+
+  if (count === 1) {
+    ans = str[i];
+    break;
+  }
+}
+
+console.log(ans); // w
+
 
 
