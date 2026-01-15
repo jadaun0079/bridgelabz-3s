@@ -55,3 +55,15 @@ let hitext="hi hi hi";
 console.log("Replace All:", hitext.replaceAll("hi","hello"));
 
 //split()
+let userName="Jatin Pratap Singh";
+let age=22;
+console.log(`My name is ${userName} and age is ${age}`);
+
+//string comperision
+let str="1234";
+let str1="1234";
+console.log("Password match:",str==str1);
+
+
+
+
