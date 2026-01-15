@@ -63,6 +63,24 @@ console.log(`My name is ${userName} and age is ${age}`);
 let str="1234";
 let str1="1234";
 console.log("Password match:",str==str1);
+let usermail="user@gmail.com";
+if(usermail.includes("@")&& useImperativeHandle.endsWith(".com")){
+    console.log("Valid Email");  
+}
+else{
+    console.log("Invalid Email");
+    
+}
+// real backend
+//
+//Real Backend Example - Password Trim
+let userPassword = " admin123 ";
+userPassword = userPassword.trim();
+console.log("Trimmed Password:", userPassword);
+// Count Words in String
+let sentence2 = "Node js backend learning";
+let words = sentencez.split(" ");
+console.log("Word Count:", words. length);
 
 
 
